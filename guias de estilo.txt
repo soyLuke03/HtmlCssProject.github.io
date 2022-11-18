@@ -1,4 +1,41 @@
+VSCode Share live: "https://prod.liveshare.vsengsaas.visualstudio.com/join?6E706DF7C9BF927D7CAFDA25D92778FF7A2A"
+
 GUÍAS DE ESTILO:
 -------------------------------------------
 
+ELEMENTOS COMUNES: 
+    Header.
+    - 
+
+    Footer.
+    -
+
+    Navigation.
+    -
+
+    Aside (deals, advertisements,…).
+    -
+
+    Main Content.
+    -
+    
+
+
+
+:Home page:
+
+
+:Haircuts page:
+
+
+:Reservation form page:
+
+
+:Location & contact information page:
+
+
+:Image gallery page:
+
+
+:About us page:
 

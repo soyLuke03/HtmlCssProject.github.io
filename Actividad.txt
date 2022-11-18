@@ -1,0 +1,163 @@
+-----------------------------------------------------------------------------
+1 Introduction:
+
+We are going to create the visual design for a website. We will use CSS3 to create the layout and visual appearance. We will use Media Queries to make the site responsive for tablets and mobile devices. We will use CSS3 to design form layouts.
+
+Each team will have a GIT repository for working and deploying their sites. The main branch of the repository will be gh-pages so that the site can be available at github.io.
+
+
+-----------------------------------------------------------------------------
+2 Learning goals:
+
+Create, test and validate cascade style sheets.
+Create responsive web pages.
+Design web interfaces that follow the Mobile First approach.
+Use control version software to work in teams.
+
+
+-----------------------------------------------------------------------------
+3 Agenda
+Planning meeting (2 hours).
+
+Sprint (12 hours).
+
+Demo (2 hours).
+
+Retrospective (1 hour).
+
+
+-----------------------------------------------------------------------------
+4 Product Backlog
+Teams will have to design a web site for a hairdressing. Each site will have the following pages:
+
+Home page
+Category page
+Reservation form page
+Location & contact information page
+Image gallery page
+About us page
+
+-----------------------------------------------------------------------------
+4.1 Reading: GIT workflow for teams
+Every member of the team must read the documentation about GIT available here.
+
+Definition of Done
+You have understood how to use the proposed GIT workflow.
+
+-----------------------------------------------------------------------------
+4.2 CSS Layout
+Teams will design a layout for the site. 
+
+-----------------------------------------------------------------------------
+4.2.1 Layout components
+All pages will have the following components:
+
+Header.
+Footer.
+Navigation.
+Aside (deals, advertisements,…).
+Main Content.
+
+-----------------------------------------------------------------------------
+4.3.2 Layout features
+Teams will design a layout for the website. 
+
+->Common layers (header, navigation, footer) must appear in the same place in all pages.
+->The layout must follow the Mobile First paradigm.
+->You must use external style sheets.
+->You must use one of the layout techniques explained in the documentation (grid, floats, flexbox, etc.).
+->Navigation must be consistent and it must show where the user is in any level of the hierarchy. You can use whatever technique you want: menus, breadcrumbs,…
+->You must use relative units for the layout.
+->All pages must be responsive. You can use media queries for that. Pages must be displayed differently for three kinds of devices:
+    Mobile devices
+    Tablets
+    Rest of screens (monitors)
+
+Definition of Done
+The layout meets the requirements. It is designed following a Mobile First approach. It has been tested for the three kinds of devices. The layout is available in GitHub Pages.
+
+-----------------------------------------------------------------------------
+4.4 CSS styling
+Teams will design the visual appearance of the website using CSS3.
+Visual design must be homogeneous (all the pages in the website must have the same "look and feel") and personalized. Teams are encouraged to design their own logos and choose colors, font faces and icons.
+You must use external style sheets.
+Use of CSS classes is encouraged.
+In order to avoid conflicts, each team member should work in a different CSS file.
+You can follow some CSS naming conventions to minimize conflicts: i.e., BEM.
+Definition of Done
+The website uses CSS classes for its visual design. The website looks homogeneous and personalized. The appearance looks professional. All CSS has been tested and validated. All team members are satisfied with the design of the website.
+
+-----------------------------------------------------------------------------
+4.5 Home page
+It must show the NAME, LOGO and MAIN INFO of the site.
+
+Definition of Done
+The page is deployed in GitHub pages. The page meets the proposed requirements. All members are satisfied with the result. 
+
+-----------------------------------------------------------------------------
+4.6 Category page
+It must show info related with the haircuts types and services they offer.
+Teams can choose among haircuts, dyes, wigs,…
+
+Definition of Done
+The page is deployed in GitHub pages. The page meets the proposed requirements. All members are satisfied with the result. The page is displayed correctly on the three kinds of devices.
+
+-----------------------------------------------------------------------------
+4.7 Reservation form page
+You must use different types of fields (the more, the better): select, radio, checkbox, textarea,…
+Additionally, you can use HTML5 input fields: date, email, number,…
+Form fields must be aligned.
+You must use:
+label tags
+fieldset tags
+placeholder attribute
+You can use whatever technique you want (display: table, float, flexbox,…) to align forms and labels, although it is recommended the use of display: inline-block. You cannot use HTML tables.
+You should honor the semantic structure of HTML: e.g., you must not put labels and inputs in different layers.
+The form must be responsive:
+Mobile devices
+All labels must NOT be shown. Exception: radio and checkbox labels must be visible.
+Input fields must occupy the entire screen width.
+Forms must be centered.
+Tablets
+labels must be shown above fields.
+select, text and textarea labels must be visible.
+radio and checkbox labels must be visible.
+Input fields must occupy 70% of the screen width.
+Forms must be centered.
+Rest of screens
+labels must be shown left side of the fields.
+All labels must be visible.
+Definition of Done
+The page is deployed in GitHub pages. The reservation form meets the design requirements. Labels and controls are aligned. All team members are satisfied with the design. The design looks professional.
+
+-----------------------------------------------------------------------------
+4.8 Location & contact information page
+This page must show information about the hairdressing location and contact information (address, telephone number,…).
+It should provide a map.
+Definition of Done
+The page is deployed in GitHub pages. The page meets the proposed requirements. All members are satisfied with the result. The page is displayed correctly on the three kinds of devices.
+
+-----------------------------------------------------------------------------
+4.9 Image gallery page
+It will have a grid of thumbnails. When an image is clicked, it will be shown in full resolution.
+Optional: show the image in a pop-up layer (such as lightbox; it requires JavaScript).
+Chosen images must be related to the website theme.
+You will have to check the compatible formats supported for all browsers.
+Teams will have to look for images with the appropriate license in order to use them.
+Teams are free to choose the place to show the photo gallery.
+Definition of Done
+The page is deployed in GitHub pages. You can display the photos in all the available browsers (Internet Explorer, Firefox, Chrome, Safari, Opera). The images meet the license requirements.
+
+-----------------------------------------------------------------------------
+4.10 About us page
+This page must show information about the team members (the hairdressing managers).
+Every team member must appear with his/her name, photo/avatar and text description.
+Definition of Done
+The page is deployed in GitHub pages. The page meets the proposed requirements. All members are satisfied with the result. The page is displayed correctly on the three kinds of devices.
+
+
+-----------------------------------------------------------------------------
+5 Guidelines
+Teams must create tasks that generate valid product updates (e.g., a task should generate a complete web page available in the web server).
+It is advisable not to work more than one person in the same file to minimize conflicts. Tasks should affect different files.
+You should do one commit and one push at least once in every class.
