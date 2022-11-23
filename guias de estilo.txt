@@ -1,4 +1,4 @@
-VSCode Share live: "https://prod.liveshare.vsengsaas.visualstudio.com/join?6E706DF7C9BF927D7CAFDA25D92778FF7A2A"
+VSCode Share live: "https://prod.liveshare.vsengsaas.visualstudio.com/join?7C6B3715B380B321EF278CCFC6F80DAB667A"
 
 GUÍAS DE ESTILO:
 -------------------------------------------
