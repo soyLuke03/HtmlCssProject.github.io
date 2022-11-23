@@ -1,28 +1,85 @@
 VSCode Share live: "https://prod.liveshare.vsengsaas.visualstudio.com/join?7C6B3715B380B321EF278CCFC6F80DAB667A"
 
+-> Ejemplo: andromedabarberia.com
+
 GUÍAS DE ESTILO:
 -------------------------------------------
 
+COLORES:
+    Principal: Azul (#)
+
+    Secundario: Rojo (#)
+
+    Fondo: Blanco (#)
+
+    Auxiliar: ¿¿Negro?? (#)
+
+
+
+
+
 ELEMENTOS COMUNES: 
     Header.
-    - 
+        -MOVIL ->
+                - Logo, arriba izquierda
+                - Titulo, centrado en medio
+                - Login, arriba derecha con un desplegable
+                - Search-Bar, abajo del logo
+                - <hr> para finalizar
+                - Bread cramp, justo debajo
+        
+        -TABLET ->
+
+        -PC ->
 
     Footer.
-    -
+        -MOVIL ->
+                - (No sticky)
+                - Iconos de redes, abajo en el centro
+                - Politicas de privacidad y términos legales y copyrigth, debajo de los iconos
+
+        -TABLET ->
+
+        -PC ->
 
     Navigation.
-    -
+        -MOVIL ->
+                - BreadCramp
+                - SearchBar
+        -TABLET ->
+
+        -PC ->
 
     Aside (deals, advertisements,…).
-    -
+        -MOVIL ->
+                - (Lo metemos en el scroll hacia abajo de móvil)
+
+        -TABLET ->
+                - (Lo metemos en el scroll hacia abajo de tablet)
+
+        -PC ->
+
 
     Main Content.
-    -
+        -MOVIL ->
+                - Titulo, arriba izquierda y tamaño grande
+                - Contenido
+                - Fotos
+        
+        -TABLET ->
+
+        -PC ->
+
+    Fuente de la letra.
+    - 
     
 
 
 
 :Home page:
+    - Titulo de Reservation, le das y va a la reserva
+    - Ofertas
+    - Ejemplos de pelados
 
 
 :Haircuts page:
