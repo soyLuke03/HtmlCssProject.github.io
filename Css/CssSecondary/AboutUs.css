@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.information, .imgperson{
+    text-align: center;
+}
+
+.information p{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 2.5em;
+}
