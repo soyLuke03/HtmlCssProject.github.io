@@ -1,0 +1,14 @@
+
+
+@media only screen and (max-width: 575px){
+
+    .mv-label{
+        display: none;
+    }
+
+    .mv-input{
+        width: 90%;
+        margin: 1%;
+    }
+
+}
