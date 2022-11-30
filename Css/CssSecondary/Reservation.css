@@ -1,7 +1,10 @@
 
+@media only screen and (min-width: 576px) and (max-width: 767px){
 
-@media only screen and (max-width: 575px){
-
+    fieldset{
+        background-color: #CF3A10;
+        box-shadow: 4px 1px 7px 1px;
+    }
 
     fieldset, input, textarea, select, button{
         border-radius: 5px;
@@ -19,7 +22,7 @@
     }
 
     input[type="submit"]:hover{
-        border-color: red;
+        border-color: #CF3A10;
         background-color: rgba(255, 0, 0, 0.364);
     }
 
@@ -27,13 +30,20 @@
         margin-left: 10%;
     }
     button[id="return"]:hover{
-        border-color: red;
+        border-color: #CF3A10;
         background-color: rgba(255, 0, 0, 0.364);
     }
 
     .title-page{
-        text-align: center;
+        text-align: left;
         text-decoration: underline;
+        background-color: #CF3A10;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .title-page h1{
+        padding: 2%;
     }
 
     .mv-label{
@@ -41,7 +51,7 @@
     }
 
     .mv-input{
-        width: 90%;
+        width: 70%;
         margin: 1%;
 
     }
@@ -59,7 +69,100 @@
     }
 
     .mv-label-checkbox{
-        text-decoration: none;
+        color: white;
+    }
+
+    .formulario{
+        text-align: center;
+    }
+
+    .mv-fieldset-labels{
+        text-align: left;
+    }
+
+    .mv-fieldset-labels input{
+        text-align: right;
+    }
+
+}
+
+
+@media only screen and (max-width: 575px){
+
+
+    fieldset{
+        background-color: #CF3A10;
+        box-shadow: 4px 1px 7px 1px;
+    }
+
+    fieldset, input, textarea, select, button{
+        border-radius: 5px;
+        padding: 5%;
+    }
+
+    input, textarea, select, button{
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+    input[type="submit"]{
+       margin-right: 10%;
+    }
+
+    input[type="submit"]:hover{
+        border-color: #CF3A10;
+        background-color: rgba(255, 0, 0, 0.364);
+    }
+
+    button[id="return"]{
+        margin-left: 10%;
+    }
+    button[id="return"]:hover{
+        border-color: #CF3A10;
+        background-color: rgba(255, 0, 0, 0.364);
+    }
+
+    .title-page{
+        text-align: left;
+        text-decoration: underline;
+        background-color: #CF3A10;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .title-page h1{
+        padding: 2%;
+    }
+
+    .mv-label{
+        display: none;
+    }
+
+    .mv-input{
+        width: 90%;
+        margin: 1%;
+
+    }
+
+    .mv-select{
+        width: 100%;
+        margin: 1%;
+
+    }
+
+    .mv-textarea{
+        width: 90%;
+        margin: 1%;
+
+    }
+
+    .mv-label-checkbox{
+        color: white;
+    }
+
+    .mv-radio{
+        color: white;
     }
 
     .formulario{
