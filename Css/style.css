@@ -1,5 +1,15 @@
-body {
-    margin: 0;
+@font-face {
+    font-family: "Madfont";
+    src: url(../FuenteLogo/madfont.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Copse-Regular';
+    src: url(../Fuente/Copse-Regular.ttf) format("truetype");
+}
+
+h1 { 
+    font-family: "MadFont";
 }
 
 header {
