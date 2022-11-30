@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="../Css/MainCSS">
+        <link rel="stylesheet" href="../Css/style.css">
         <link rel="stylesheet" href="../Css/CssSecondary/Reservation.css">
     </head>
     <body>
+
         <header>
             <div class="logo">
-                <img src="../Image/70598f7d-b39c-4cb3-890f-d20ab760b4bb.png" alt="Logo">
+                <div class="logoimg">
+                    <img src="../Image/70598f7d-b39c-4cb3-890f-d20ab760b4bb.png" alt="Logo">
+                </div>
             </div>
             <div class="title">
-
+                hggf
             </div>
-            <div class="icons"></div>
+            <div class="icons">gfgh</div>
         </header>
+
         <main>
             <div class="container-wrap">
 
@@ -21,23 +25,74 @@
                     <h1>RESERVATION PAGE</h1>
                 </div>
                 <div class="formulario">
-                    <label class="mv-label">Name</label>
-                    <input class="mv-input" type="text" required name="" id="" placeholder="">
 
-                    <label class="mv-label">Surname</label>
-                    <input class="mv-input" type="text" name="" id="" placeholder="">
+                    <!-- Inputs -->
+                    <fieldset>
+                        <label class="mv-label">Name</label>
+                        <input class="mv-input" type="text" required name="" id="" placeholder="Write your name here...">
 
-                    <label class="mv-label">Phone number</label>
-                    <input class="mv-input" type="number" required minlength="9" maxlength="9" name="" id="" placeholder="">
+                        <label class="mv-label">Surname</label>
+                        <input class="mv-input" type="text" name="" id="" placeholder="Write your surname here...">
+    
+                        <label class="mv-label">Phone number</label>
+                        <input class="mv-input" type="number" required name="" id="" placeholder="Write your phoneNumber here...">
 
-                    <label class="mv-label">Email</label>
-                    <input class="mv-input" type="email" required name="" id="" placeholder="">
+                        <label class="mv-label">Email</label>
+                        <input class="mv-input" type="email" required name="" id="" placeholder="Write your Email here...">
 
-                    <label class="mv-label">Date and time</label>
-                    <input class="mv-input" type="datetime" required name="" id="">
+                        <label class="mv-label">Date and time</label>
+                        <input class="mv-input" type="datetime-local" required name="" id="">
+                    </fieldset>
 
-                    <label class="mv-label">Any aditional notes</label>
-                    <textarea  rows="5px" placeholder="Write something we need to know of your reservation"></textarea>
+
+                    <br>
+
+                    <!--Textarea y Select-->
+                    <fieldset>
+                        <label class="mv-label">Any aditional notes</label>
+                        <textarea class="mv-textarea" rows="5px" placeholder="Write something we need to know of your reservation"></textarea>
+
+                        <label class="mv-label">Haircut requested: </label>
+                        <select name="" id="" class="mv-select">
+                            <option>Choose a haircut option...</option>
+                            <option>90's</option>
+                            <option>80's</option>
+                            <option>Afro</option>
+                            <option>Gradient hairstyle</option>
+                            <option>Shaved</option>
+                            <option>Short hairstyle</option>
+                            <option>Militar hairstyle</option>
+                        </select>
+                    </fieldset>
+                    
+                    
+                    <br>
+
+                    <!-- Checkbox y Radio -->
+                    <fieldset class="mv-fieldset-labels">
+                        <label class="mv-label-checkbox">Want a special haircut?</label>
+                        <input class="mv-checkbox" type="checkbox" required name="" id="">
+
+                        <br>
+                        
+                        <label class="mv-label-checkbox">Want to recieve discount notifications?</label>
+                        <input class="mv-checkbox" type="checkbox" required name="" id="">
+
+                        <br>
+
+                        <label class="mv-label-checkbox">Want a home service?</label>
+                        <input class="mv-radio" type="radio" required name="radioHS" id=""> Yes
+                        <input class="mv-radio" type="radio" required name="radioHS" id=""> No
+                    </fieldset>
+                     
+
+                    <br>
+
+                    <!--Submit y Cancelar-->
+                    <fieldset>
+                        <input type="submit" name="" id="" value="Send it now">
+                        <button id="return">Return to our shop</button>
+                    </fieldset>
                 </div>
 
             </div>

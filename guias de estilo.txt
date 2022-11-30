@@ -6,9 +6,9 @@ GUÍAS DE ESTILO:
 -------------------------------------------
 
 COLORES:
-    Principal: Azul (#)
+    Principal: Azul (#58A0B9)
 
-    Secundario: Rojo (#)
+    Secundario: Rojo (#CF3A10)
 
     Fondo: Blanco (#)
 
