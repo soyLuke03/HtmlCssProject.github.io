@@ -1,4 +1,4 @@
-VSCode Share live: "https://prod.liveshare.vsengsaas.visualstudio.com/join?B1BF468FE88FD15C47F18EC42DFFCC8D733F"
+VSCode Share live: "https://prod.liveshare.vsengsaas.visualstudio.com/join?7ECB73A21F6F42AFD523D18EDA0C5E7B6DA4"
 
 -> Ejemplo: andromedabarberia.com
 
