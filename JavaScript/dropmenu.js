@@ -1,3 +1,5 @@
-const menuButton = document.querySelector('.button-menu');
+const buttonMenu = document.querySelector('.button-menu');
 
-menuButton.addEventListener('click', )
+buttonMenu.addEventListener('click', () => {
+    console.log('E')
+})

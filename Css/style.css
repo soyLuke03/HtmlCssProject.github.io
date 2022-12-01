@@ -46,42 +46,41 @@ header {
     border-radius: 100%;
 }
 
-.button-menu {
+.fa-bars {
     margin-left: 50%;
     cursor: pointer;
-}
-
-.button-menu > span::before {
-    content: "";
-    position: absolute;
-    top: 10px;
-    width: 20px;
-    height: 2px;
-    background-color: red;
-}
-
-.button-menu > span::after {
-    content: "";
-    position: absolute;
-    top: 15px;
-    width: 20px;
-    height: 2px;
-    background-color: red;
+    color: red;
+    font-size: 25px;
 }
 
 .drop-menu {
     display: flex;
     flex-direction: column;
-    margin-right: 2%;
+    margin-right: 4%;
 }
 
 .drop-menu > .menu ul {
     list-style-type: none;
+    margin-right: 10px;
 }
 
 .drop-menu > .menu a {
     text-decoration: none;
     color: black;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 78px;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #58A0B9;
+}
+
+.open {
+    max-height: 20vh;
+    height: 20vh;
 }
 
 .fa-gear {
