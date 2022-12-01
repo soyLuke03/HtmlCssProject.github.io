@@ -1,15 +1,18 @@
 @font-face {
-    font-family: "Madfont";
+    font-family: 'Madfont';
     src: url(../FuenteLogo/madfont.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: 'Copse-Regular';
+    font-family: 'CopseRegular';
     src: url(../Fuente/Copse-Regular.ttf) format("truetype");
 }
 
-h1 { 
-    font-family: "MadFont";
+body {
+    margin: 0;
+}
+
+.title h1 {
 }
 
 header {
@@ -18,10 +21,15 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 1px;
+    background-color: red;
 }
 
 .logo {
-    max-width: 7%;
+    border: solid;
+    display: flex;
+    align-items: center;
+    max-width: 6%;
+    max-width: 5em;
     margin-left: 3%;
 }
 
