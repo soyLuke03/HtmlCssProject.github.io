@@ -30,27 +30,27 @@
                     <div class="inputs">
                         <fieldset> 
                             <div class="input-div">
-                                <label class="mv-label">Name</label>
+                                <label class="mv-label">Name: </label>
                                 <input class="mv-input" type="text" required name="" id="" placeholder="Write your name here...">
                             </div>  
                             
                             <div class="input-div">
-                                <label class="mv-label">Surname</label>
+                                <label class="mv-label">Surname: </label>
                                 <input class="mv-input" type="text" name="" id="" placeholder="Write your surname here...">
                             </div>
                             
                             <div class="input-div">
-                                <label class="mv-label">Phone number</label>
+                                <label class="mv-label">Phone number: </label>
                                 <input class="mv-input" type="number" required name="" id="" placeholder="Write your phoneNumber here...">
                             </div>
 
                             <div class="input-div">
-                                <label class="mv-label">Email</label>
+                                <label class="mv-label">Email: </label>
                                 <input class="mv-input" type="email" required name="" id="" placeholder="Write your Email here...">
                             </div>
 
                             <div class="input-div">
-                                <label class="mv-label">Date and time</label>
+                                <label class="mv-label">Date and time:  </label>
                                 <input class="mv-input" type="datetime-local" required name="" id="">
                             </div>
                         </fieldset>
@@ -87,22 +87,25 @@
                     <!-- Checkbox y Radio -->
                     <div class="checkbox">
                         <fieldset class="mv-fieldset-labels">
-                            <label class="mv-label-checkbox">Want a special haircut?</label>
-                            <input class="mv-checkbox" type="checkbox" required style="z-index:9" name="" id="">
+                            <div class="input-div">
+                                <label class="mv-label-checkbox">Want a special haircut?</label>
+                                <input class="mv-checkbox" type="checkbox" name="" id="">
+                            </div>
+                            
 
-                            <br>
+                            <div class="input-div">
+                                <label class="mv-label-checkbox">Want to recieve discount notifications?</label>
+                                <input class="mv-checkbox" type="checkbox" name="" id="">
+                            </div>
                             
                             
-                            <label class="mv-label-checkbox">Want to recieve discount notifications?</label>
-                            <input class="mv-checkbox" type="checkbox" required name="" id="">
-
-                            <br>
-
-                            
-                            <label class="mv-label-checkbox">Want a home service?</label>
-                            <input class="mv-radio" type="radio" required name="radioHS" id="">Yes
-                            <input class="mv-radio" type="radio" required name="radioHS" id="">No
-                            
+                            <div class="input-div">
+                                <label class="mv-label-checkbox">Want a home service?</label>
+                                <p>
+                                    <input class="mv-radio" type="radio" required name="radioHS" id="">Yes
+                                    <input class="mv-radio" type="radio" required name="radioHS" id="">No
+                                </p>
+                            </div>
                         </fieldset>
                     </div>
 
@@ -112,15 +115,15 @@
                     <div class="submit">
                         <fieldset>
                             <input type="submit" name="" id="" value="Send it now">
-                            <button id="return">Return to our shop</button>
+                            <a id="return"><button id="return">Return to our shop</button></a> 
                         </fieldset>
                     </div>
 
                     <br>
-                </div>
-            </form>
+                </form>
             </div>
         </main>
+
         <footer>
 
         </footer>

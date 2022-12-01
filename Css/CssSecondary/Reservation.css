@@ -1,38 +1,42 @@
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+    grid-template-areas: 
+    ". inputs inputs inputs ."
+    ". textarea textarea textarea ."
+    ". checks checks checks ."
+    ". submit submit submit .";
+    grid-gap: 10px;
+}
+
+.inputs{
+    display: grid;
+    grid-area: inputs;
+}
+
+.textareas{
+    display: grid;
+    grid-area: textarea;
+}
+
+.checkbox{
+    display: grid;
+    grid-area: checks;
+}
+
+.submit{
+    display: grid;
+    grid-area: submit;
+}
+
 
 @media only screen and (min-width: 768px){
-    .formulario{
-        display: grid;
-        grid-template-columns: 1fr 2.5fr 2.5fr 1fr;
-        grid-template-areas: 
-        ". inputs inputs ."
-        ". textarea textarea ."
-        ". checks checks ."
-        ". submit submit .";
-    }
 
-    .inputs{
-        display: grid;
-        grid-area: inputs;
-    }
-
-    .textareas{
-        display: grid;
-        grid-area: textarea;
-    }
-
-    .checkbox{
-        display: grid;
-        grid-area: checks;
-    }
-
-    .submit{
-        display: grid;
-        grid-area: submit;
-    }
 
     main{
         font-size: larger;
     }
+
 
     fieldset{
         background-color: #CF3A10;
@@ -45,17 +49,22 @@
         display: flex;
         margin: auto;
         text-align: left;
-        width: 70%;
+        width: 60%;
+        padding: 0%;
     }
 
     label{
-        padding: 5%;
+        padding: 2%;
+    }
+    textarea {
+        height: 100px;
     }
     
 
     fieldset, input, textarea, select, button{
         border-radius: 5px;
-        padding: 5%;
+        font-size: 17px;
+        text-align: center;
     }
 
     input, textarea, select, button{
@@ -94,7 +103,7 @@
     }
 
     .title-page h1{
-        padding: 2%;
+        padding: 1%;
     }
 
     
@@ -104,23 +113,27 @@
     }
 
     .mv-input{
-        width: 100%;
+        width: 70%;
         margin: 1%;
+        margin-left: 1%;
+    }
+
+    .mv-label{
+        width: 30%;
     }
 
     .mv-select{
-        width: 100%;
+        width: 70%;
         margin: 1%;
-
     }
 
     .mv-textarea{
-        width: 100%;
+        width: 70%;
         margin: 1%;
-
     }
 
     .mv-label-checkbox{
+        width: 70%;
         color: white;
     }
 
@@ -137,6 +150,37 @@
 
 @media only screen and (min-width: 576px) and (max-width: 767px){
 
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+        grid-template-areas: 
+        "inputs inputs inputs inputs inputs"
+        "textarea textarea textarea textarea textarea"
+        "checks checks checks checks checks"
+        "submit submit submit submit submit";
+    }
+
+    .inputs{
+        display: grid;
+        grid-area: inputs;
+    }
+
+    .textareas{
+        display: grid;
+        grid-area: textarea;
+    }
+
+    .checkbox{
+        display: grid;
+        grid-area: checks;
+    }
+
+    .submit{
+        display: grid;
+        grid-area: submit;
+    }
+    
+    
     fieldset{
         background-color: #CF3A10;
         box-shadow: 4px 1px 7px 1px;
@@ -196,8 +240,6 @@
         padding: 2%;
     }
 
-    
-
     .mv-radio{
         color: white;
     }
@@ -240,6 +282,35 @@
 
 @media only screen and (max-width: 575px){
 
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+        grid-template-areas: 
+        "inputs inputs inputs inputs inputs"
+        "textarea textarea textarea textarea textarea"
+        "checks checks checks checks checks"
+        "submit submit submit submit submit";
+    }
+
+    .inputs{
+        display: grid;
+        grid-area: inputs;
+    }
+
+    .textareas{
+        display: grid;
+        grid-area: textarea;
+    }
+
+    .checkbox{
+        display: grid;
+        grid-area: checks;
+    }
+
+    .submit{
+        display: grid;
+        grid-area: submit;
+    }
 
     fieldset{
         background-color: #CF3A10;
