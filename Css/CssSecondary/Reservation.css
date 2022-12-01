@@ -1,3 +1,8 @@
+
+body{
+    font-family: 'CopseRegular';
+}
+
 .formulario{
     display: grid;
     grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
@@ -315,6 +320,7 @@
     fieldset{
         background-color: #CF3A10;
         box-shadow: 4px 1px 7px 1px;
+        color: white;
     }
 
     fieldset, input, textarea, select, button{
