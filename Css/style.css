@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Madfont';
     src: url(../FuenteLogo/madfont.ttf) format("truetype");
+    font-weight: 200;
 }
 
 @font-face {
@@ -12,7 +13,9 @@ body {
     margin: 0;
 }
 
-.title h1 {
+.title p {
+    font-family: 'Madfont';
+    font-size: 1.5em;
 }
 
 header {
@@ -21,15 +24,13 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 1px;
-    background-color: red;
+    background-color: #58A0B9;
 }
 
 .logo {
-    border: solid;
     display: flex;
     align-items: center;
-    max-width: 6%;
-    max-width: 5em;
+    max-width: 5%;
     margin-left: 3%;
 }
 
@@ -41,4 +42,49 @@ header {
 .logoimg img {
     width: 100%;
     height: 100%;
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.button-menu {
+    margin-left: 50%;
+    cursor: pointer;
+}
+
+.button-menu > span::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 20px;
+    height: 2px;
+    background-color: red;
+}
+
+.button-menu > span::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    width: 20px;
+    height: 2px;
+    background-color: red;
+}
+
+.drop-menu {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.drop-menu > .menu ul {
+    list-style-type: none;
+}
+
+.drop-menu > .menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.fa-gear {
+    color: red;
+    margin-right: 5px;
 }
