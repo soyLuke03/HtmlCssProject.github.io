@@ -3,8 +3,49 @@ body{
     height: 100vh;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "person1 . person2"
+    "person3 . person4"
+    "footer footer footer";
+    height: 100vh;
+}
+
+.header{
+    grid-area: header
+}
+
+.person1{
+    grid-area: person1
+}
+
+.person2{
+    grid-area: person2;
+}
+
+.person3{
+    grid-area: person3;
+}
+
+.person4{
+    grid-area: person4;
+}
+
+.footer{
+    grid-area: footer;
+}
+
 .information, .imgperson{
     text-align: center;
+}
+
+p, h2{
+    font-family: 'Copse-Regular';
+    color: #CF3A10;
 }
 
 .information p{
