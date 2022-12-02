@@ -12,7 +12,7 @@ body{
     grid-template-areas: 
     "person1 . person2"
     "person3 . person4";
-    height: 85vh;
+    height: 82vh;
 }
 
 .person1{
@@ -37,20 +37,24 @@ body{
 
 p, h2{
     font-family: 'CopseRegular';
-    color: #CF3A10;
+    color: white;
 }
 
 
 .information p{
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 h2{
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .title p{
     color: black;
+}
+
+.footer{
+    color: white;
 }
 
 @media only screen and (max-device-width : 575px) {
