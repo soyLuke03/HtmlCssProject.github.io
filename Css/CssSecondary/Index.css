@@ -1,0 +1,19 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr 1fr 0.05fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    height: 100vh;
+}
+
+main {
+    grid-area: main;
+}
+
+.portada img {
+    object-fit: cover;
+}

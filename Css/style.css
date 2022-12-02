@@ -9,41 +9,29 @@
     src: url(../Fuente/Copse-Regular.ttf) format("truetype");
 }
 
-.grid-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    "header"
-    "body"
-    "footer"
-    ;
-}
-
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header {
     grid-area: header;
-    display: grid;
-    flex-direction: row;
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0 10px 0;
     background-color: #58A0B9;
-    height: 5em;
 }
 
 .title p {
     font-family: 'Madfont';
     font-size: 1.5em;
+    margin: 0;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    max-width: 3.8em;
+    max-width: 4em;
+    max-height: 4em;
     margin-left: 3%;
 }
 
@@ -65,13 +53,10 @@ header {
 }
 
 .drop-menu {
-    display: flex;
-    flex-direction: column;
-    margin-right: 4%;
+    margin-right: 2%;
 }
 
 .button-menu i {
-    margin-left: 50%;
     cursor: pointer;
     color: black;
     font-size: 25px;
@@ -118,7 +103,6 @@ header {
 
 footer {
     grid-area: footer;
-    display: grid;
 }
 
 @media only screen and (max-device-width : 575px) {
