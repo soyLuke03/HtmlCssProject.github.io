@@ -3,21 +3,32 @@
     <head>
         <link rel="stylesheet" href="../Css/style.css">
         <link rel="stylesheet" href="../Css/CssSecondary/AboutUs.css">
-
+        <script src="https://kit.fontawesome.com/acaa90b7af.js" crossorigin="anonymous"></script>
     </head>
     <body>
+        <header class="header">
+            <div class="logo">
+                <div class="logoimg">
+                    <img src="../Image/Logo.png" alt="Logo">
+                </div>
+            </div>
+            <div class="title">
+                <p>THE CLASSIC BARBERSHOP</p>
+            </div>
+            <div class="drop-menu">
+                <div class="button-menu">
+                    <i class="fa-solid fa-bars" title="Drop menu"></i>
+                </div>
+            </div>
+        </header>
         <div class="grid-container">
-            <header class="header">
-                <div class="logo">
-                    <div class="logoimg">
-                        <img src="../Image/Logo.png" alt="Logo">
-                    </div>
-                </div>
-                <div class="title">
-                    <h1>THE CLASSIC BARBERSHOP</h1>
-                </div>
-                <div class="icons"></div>
-            </header>
+            <div class="menu">
+                <ul>
+                    <li title="Iniciar sesión"><a href=""><i class="fa-solid fa-user"></i>Log in</a></li>
+                    <li title="Reservas"><a href=""><i class="fa-solid fa-calendar-check"></i>Reservations</a></li>
+                    <li title="Ajustes"><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+                </ul>
+            </div>
             <section class="person1">
                 <div class="imgperson">
                     <img src="../Image/AvatarFlorian.png" alt="Person">
@@ -59,4 +70,5 @@
             </footer>
         </div>
     </body>
+<script src="../JavaScript/dropmenu.js"></script>
 </html>

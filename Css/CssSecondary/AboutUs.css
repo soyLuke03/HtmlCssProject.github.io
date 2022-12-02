@@ -6,17 +6,12 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
-    "header header header"
     "person1 . person2"
     "person3 . person4"
     "footer footer footer";
     height: 100vh;
-}
-
-.header{
-    grid-area: header
 }
 
 .person1{
@@ -44,7 +39,7 @@ body{
 }
 
 p, h2{
-    font-family: 'Copse-Regular';
+    font-family: 'CopseRegular';
     color: #CF3A10;
 }
 
@@ -54,4 +49,8 @@ p, h2{
 
 h2{
     font-size: 2.5em;
+}
+
+.title p{
+    color: black;
 }
