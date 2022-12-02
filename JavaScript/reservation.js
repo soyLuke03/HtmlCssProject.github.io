@@ -2,8 +2,7 @@ let botonReturn = document.getElementById("return");
 
 botonReturn.addEventListener('click', (e) => {
 e.preventDefault()
-   // location.replace("../index.html")
-   
+    location.replace("../index.html")
 })
 
 let span = document.getElementById("spanSubmit");

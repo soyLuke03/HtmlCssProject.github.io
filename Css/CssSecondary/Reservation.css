@@ -116,16 +116,12 @@ body{
         box-shadow: 4px 4px 7px 1px;
     }
 
-    .title-page{
+    .title-page h3{
         text-align: left;
         text-decoration: underline;
-        background-color: #58A0B9;
         border-radius: 5px;
         color: white;
-    }
-
-    .title-page h3{
-        padding: 1%;
+        padding: 2%;
         background-color: #CF3A10;
     }
 
@@ -219,7 +215,8 @@ body{
 
     fieldset, input, textarea, select, button{
         border-radius: 5px;
-        padding: 5%;
+        padding: 3%;
+        font-size: 18px;
     }
 
     input, textarea, select, button{
@@ -249,16 +246,13 @@ body{
         box-shadow: 4px 4px 7px 1px;
     }
 
-    .title-page{
+    .title-page h3{
+        padding: 2%;
+        background-color: #CF3A10;
         text-align: left;
         text-decoration: underline;
-        background-color: #58A0B9;
         border-radius: 5px;
         color: white;
-    }
-
-    .title-page h1{
-        padding: 2%;
     }
 
     .mv-radio{
@@ -305,12 +299,12 @@ body{
 
     .formulario{
         display: grid;
-        grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
         grid-template-areas: 
-        "inputs inputs inputs inputs inputs"
-        "textarea textarea textarea textarea textarea"
-        "checks checks checks checks checks"
-        "submit submit submit submit submit";
+        "inputs inputs inputs inputs "
+        "textarea textarea textarea textarea "
+        "checks checks checks checks "
+        "submit submit submit submit ";
     }
 
     .inputs{
@@ -333,6 +327,10 @@ body{
         grid-area: submit;
     }
 
+    .input-div, .textarea-div, .select-div{
+        padding: 1%;
+    }
+
     fieldset{
         background-color: #58A0B9;
         box-shadow: 4px 1px 7px 1px;
@@ -341,7 +339,8 @@ body{
 
     fieldset, input, textarea, select, button{
         border-radius: 5px;
-        padding: 5%;
+        padding: 3%;
+        font-size: 29px;
     }
 
     input, textarea, select, button{
@@ -371,16 +370,14 @@ body{
         box-shadow: 4px 4px 7px 1px;
     }
 
-    .title-page{
+    .title-page h3{
+        padding: 2%;
+        font-size: larger;
+        background-color: #CF3A10;
         text-align: left;
         text-decoration: underline;
-        background-color: #58A0B9;
         border-radius: 5px;
         color: white;
-    }
-
-    .title-page h1{
-        padding: 2%;
     }
 
     .mv-label{
