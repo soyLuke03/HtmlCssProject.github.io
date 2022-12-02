@@ -1,17 +1,18 @@
 body{
     margin: 0;
     height: 100vh;
+    background-image: url("../../Image/equipo.jpg");
+    background-repeat: no-repeat;
 }
 
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: 
     "person1 . person2"
-    "person3 . person4"
-    "footer footer footer";
-    height: 100vh;
+    "person3 . person4";
+    height: 85vh;
 }
 
 .person1{
@@ -30,10 +31,6 @@ body{
     grid-area: person4;
 }
 
-.footer{
-    grid-area: footer;
-}
-
 .information, .imgperson{
     text-align: center;
 }
@@ -42,6 +39,7 @@ p, h2{
     font-family: 'CopseRegular';
     color: #CF3A10;
 }
+
 
 .information p{
     font-size: 2em;
@@ -53,4 +51,17 @@ h2{
 
 .title p{
     color: black;
+}
+
+@media only screen and (max-device-width : 575px) {
+    .grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-areas:
+        "person1"
+        "person2"
+        "person3"
+        "person4";
+        height: 93vh;
+    }
 }
