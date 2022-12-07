@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+h2{
+    font-family: 'Madfont';
+    text-align: center;
+}
+
+p{
+    font-family: 'CopseRegular';
+}
