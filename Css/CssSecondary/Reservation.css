@@ -55,11 +55,6 @@ body{
 @media only screen and (min-device-width: 768px){
 
 
-    main{
-        font-size: larger;
-    }
-
-
     fieldset{
         background-color: #58A0B9;
         box-shadow: 4px 1px 7px 1px;

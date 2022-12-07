@@ -64,12 +64,12 @@ header {
 
 .menu {
     position: absolute;
-    width: 150px;
+    width: 190px;
     right: 0;
     max-height: 0;
     overflow: hidden;
     border-bottom-left-radius: 5px;
-    background-color: #58A0B9;
+    background-color: #CF3A10;
     transition: 0.7s linear;
     transition-delay: 0;
 }
@@ -88,7 +88,9 @@ header {
 .menu li {
     list-style-type: none;
     margin-left: -1em;
+    font-size: 1.4em;
     margin-right: 10px;
+    
 }
 
 .menu a {
@@ -107,29 +109,48 @@ footer {
 
 @media only screen and (max-device-width : 575px) {
     .title p {
-        font-size: 0.8em;
+        font-size: 1.4em;
     }
 
     header {
-        height: 3em;
+        height: 5em;
     }
 
+    .menu {
+        width: 300px;
+    }
+
+    
     .logo {
-        max-width: 2em;
+        max-width: 4.5em;
     }
 
     .button-menu i {
-        font-size: 15px;
+        font-size: 25px;
+    }
+
+    .menu a {
+        font-size: 1.5em  ;
     }
 
     .portada img {
         width: 100%;
-        height: 23em;
+        height: 25em;
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){
+@media only screen and (min-device-width: 576px) and (max-device-width: 767px){
     .title p {
         font-size: 1.3em;
     }
+
+    .menu {
+        width: 250px;
+    }
+
+    .menu a {
+        font-size: 1.2em  ;
+    }
+
+
 }
