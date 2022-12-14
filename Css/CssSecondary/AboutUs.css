@@ -8,11 +8,17 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
+    grid-template-rows: 0fr 1fr 1fr 0fr;
+    grid-template-areas:
+    "header header header" 
     "person1 . person2"
-    "person3 . person4";
-    height: calc(100vh - 102px);
+    "person3 . person4"
+    "footer footer footer";
+    height: 100vh;
+}
+
+header {
+    grid-area: header;
 }
 
 .person1{
@@ -40,7 +46,6 @@ p, h2{
     color: white;
 }
 
-
 .information p{
     font-size: 1.5em;
 }
@@ -54,18 +59,21 @@ h2{
 }
 
 .footer{
+    grid-area: footer;
     color: white;
 }
 
 @media only screen and (max-device-width : 575px) {
     .grid-container{
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0fr 1fr 1fr 1fr 1fr 0fr;
         grid-template-areas:
+        "header"
         "person1"
         "person2"
         "person3"
-        "person4";
-        height: 93vh;
+        "person4"
+        "footer";
+        height: 100vh;
     }
 }
