@@ -23,3 +23,17 @@ h2{
     padding: 2%;
     background-color: #CF3A10;
 }
+
+@media only screen and (max-device-width : 575px) {
+    p{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 36px;
+    }
+
+    h3{
+        font-size: 42px;
+    }
+}
