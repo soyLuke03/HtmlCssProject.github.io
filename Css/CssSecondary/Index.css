@@ -18,6 +18,28 @@ main {
     object-fit: cover;
 }
 
+.white{
+    color: white
+}
+
+.enlace{
+    text-decoration: none;
+    color: #00d0ff;
+}
+
+.container-flex{
+    width: 100%;
+    margin: 0%;
+    background-color: #CF3A10;
+}
+
+.pagina{
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    font-size: larger;
+}
+
 @media only screen and (max-device-width: 575px){
     .title p {
         font-size: 0.95em;
@@ -32,4 +54,7 @@ main {
         color: black;
         font-size: 1em;
     }
+
+
+
 }
