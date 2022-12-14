@@ -8,6 +8,10 @@ p, h3{
     text-align: center;
 }
 
+h2{
+    font-family: 'CopseRegular';  
+}
+
 .map{
     text-align: center;
 }
