@@ -3,11 +3,11 @@ body{
     height: 100vh;
 }
 
-h2{
-    font-family: 'Madfont';
+p, h3{
+    font-family: 'CopseRegular';
     text-align: center;
 }
 
-p{
-    font-family: 'CopseRegular';
+.map{
+    text-align: center;
 }
