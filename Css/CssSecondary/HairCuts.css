@@ -11,12 +11,15 @@ body,html{
     margin-bottom: 2%;
     margin-top: 2%;
 }
+.titulo h3{
+    text-align: center;
+}
 
 main{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
     grid-gap: 1%;
-    margin: 1%;
+    
 }
 
 .card img{
