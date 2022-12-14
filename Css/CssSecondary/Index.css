@@ -40,21 +40,3 @@ main {
     font-size: larger;
 }
 
-@media only screen and (max-device-width: 575px){
-    .title p {
-        font-size: 0.95em;
-    }
-
-    .logo {
-        max-width: 3em;
-    }
-
-    .button-menu i {
-        cursor: pointer;
-        color: black;
-        font-size: 1em;
-    }
-
-
-
-}
