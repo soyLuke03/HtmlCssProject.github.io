@@ -5,7 +5,6 @@ body{
 
 p, h3{
     font-family: 'CopseRegular';
-    text-align: center;
 }
 
 h2{
@@ -14,4 +13,13 @@ h2{
 
 .map{
     text-align: center;
+}
+
+.title-page h3{
+    text-align: left;
+    text-decoration: underline;
+    border-radius: 5px;
+    color: white;
+    padding: 2%;
+    background-color: #CF3A10;
 }
