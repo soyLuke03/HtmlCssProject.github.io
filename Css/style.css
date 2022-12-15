@@ -75,12 +75,11 @@ header {
     overflow: hidden;
     border-bottom-left-radius: 5px;
     background-color: #58A0B9;
-    transition: 0.7s linear;
-    transition-delay: 0;
+    transition: max-height .6s linear;
 }
 
 .open {
-    max-height: 30%;
+    max-height: 200px;
     border-bottom-left-radius: 5px;
 }
 
@@ -130,4 +129,37 @@ footer a {
 .breadcramp a{
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (max-device-width: 575px){
+    .title p {
+        font-size: 0.85em;
+    }
+
+    .logo {
+        max-width: 3em;
+    }
+
+    .button-menu i {
+        cursor: pointer;
+        color: black;
+        font-size: 1em;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: #58A0B9;
+        padding: 10px 0 10px 0;
+    }
+    
+    footer a {
+        flex: 1;
+        font-size: 1em;
+        text-decoration: none;
+        color: black;
+    }
+
 }
