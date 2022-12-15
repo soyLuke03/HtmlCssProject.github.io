@@ -74,7 +74,7 @@ header {
     max-height: 0;
     overflow: hidden;
     border-bottom-left-radius: 5px;
-    background-color: #58A0B9;
+    background-color: #58a1b9cd;
     transition: max-height .6s linear;
 }
 
@@ -124,6 +124,7 @@ footer a {
 .breadcramp{
     color: white;
     background-color: black;
+    width: fit-content;
 }
 
 .breadcramp a{
