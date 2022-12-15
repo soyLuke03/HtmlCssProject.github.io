@@ -74,7 +74,7 @@ header {
     max-height: 0;
     overflow: hidden;
     border-bottom-left-radius: 5px;
-    background-color: #58a1b9cd;
+    background-color: rgba(88, 160, 185, 0.6);
     transition: max-height .6s linear;
 }
 
@@ -94,7 +94,6 @@ header {
     margin-left: -1em;
     font-size: 1.4em;
     margin-right: 10px;
-    
 }
 
 .menu a {
