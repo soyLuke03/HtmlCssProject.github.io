@@ -340,17 +340,12 @@ body{
     fieldset, input, textarea, select, button{
         border-radius: 5px;
         padding: 3%;
-        font-size: 29px;
+        font-size: 19px;
     }
 
     input, textarea, select, button{
         border-radius: 5px;
         cursor: pointer;
-    }
-
-
-    input[type="submit"]{
-       margin-right: 10%;
     }
 
     input[type="submit"]:hover{
