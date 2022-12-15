@@ -372,7 +372,7 @@ body{
 
     .title-page h3{
         padding: 2%;
-        font-size: larger;
+        font-size: 28px;
         background-color: #CF3A10;
         text-align: left;
         text-decoration: underline;
@@ -381,7 +381,7 @@ body{
     }
 
     .breadcramp p{
-        font-size: larger;
+        font-size: 20px;
     }
 
     .mv-label{
