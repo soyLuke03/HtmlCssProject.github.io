@@ -1,4 +1,8 @@
-p, h3{
+p, h3, h2{
     font-family: 'CopseRegular';
 }
 
+.videoWrapper{
+    position: relative;
+    padding-left: 30%;
+}
